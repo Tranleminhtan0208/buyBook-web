@@ -1,0 +1,67 @@
+.bg-header{
+    background-color: #f8f8f8;
+}
+.navbar-wrapper{
+    height: 60px;
+}
+.logo-wrapper{
+    height: 100%;
+    width: 25%;
+}
+.logo{
+    height: 100%;
+    width: 170px;
+    object-fit: contain;
+}
+.menu-wrapper{
+    height: 100%;
+}
+a,
+a:hover,
+a:active{
+    text-decoration: none;
+    color: #777;
+}
+.menu-wrapper>a:hover{
+    background-color: aqua;
+    cursor: pointer;
+    color: black;
+    background-color: #eee;
+}
+.menu-wrapper>a:hover .menu-icon{
+    opacity: 1;
+}
+.menu-icon{
+    margin-right: 10px;
+    opacity: 0.5;
+}
+.centered{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-container{
+    width: 400px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+.or{
+    bottom: calc(50% - 15px);
+    right: calc(50% - 100px);
+    background-color: #fff;
+    padding: 5px;
+}
+.input{
+    height: 36px;
+    margin-bottom: 20px;
+    box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+.input:focus{
+    outline: 0;
+    border-color: #66afe9;
+    box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%), 0 0 8px rgb(102 175 233 / 60%);
+}
+.login-button{
+    color: #fff;
+}
